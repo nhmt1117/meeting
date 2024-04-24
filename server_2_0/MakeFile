@@ -1,0 +1,9 @@
+CXX = g++
+TARGET = main
+OBJ = epoll_server.o echo_server.o
+
+$(TARGET) : $(OBJ)
+	$(cxx) $< -o $@
+
+
+%.o : %.cpp
