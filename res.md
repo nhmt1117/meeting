@@ -175,7 +175,17 @@ pkgdep/：包依赖安装脚本。
 vagrant/：Vagrant虚拟化环境脚本。
 shared_lib/
 存放共享库相关的文件。
+test/
+存放SPDK的测试代码和测试框架。
 
+accel/：加速引擎测试代码。
+app/：应用程序测试代码。
+bdev/：块设备测试代码。
+blobfs/：blobfs测试代码。
+blobstore/：blobstore测试代码。
+common/：常用测试代码。
+compress/：压缩功能测试代码。
+cpp_headers/：C++头文件测试代码
 
 - **dd/**：与`spdk_dd`应用程序相关的测试代码。
 - **dma/**：直接内存访问（DMA）功能的测试代码。
